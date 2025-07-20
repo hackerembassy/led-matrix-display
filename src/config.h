@@ -10,8 +10,8 @@
 #define FS_USE_LITTLEFS
 
 // LED Matrix params
-const uint8_t WIDTH = 32 * 6;
-const uint8_t HEIGHT = 16 * 2;
+const uint16_t WIDTH = 32 * 8;
+const uint16_t HEIGHT = 16 * 2;
 
 // LED Matrix pinout
 #define P_A    22
