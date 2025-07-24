@@ -8,13 +8,13 @@ import numpy as np
 # ------------------------------
 # Configuration
 # ------------------------------
-SERVER_IP = "led-matrix-red.lan"
+SERVER_IP = "led-matrix.lan"
 SERVER_PORT = 1234
 
 LOOP_VIDEO = True  # Set to True to loop; only makes sense for video files
 
 # Display size from your ESP32 code (e.g., 128×128 for SSD1327)
-WIDTH = 256
+WIDTH = 192
 HEIGHT = 32
 
 # Frame rate limit (in seconds per frame). 

@@ -7,12 +7,12 @@ from PIL import Image
 # -----------------------------------------------------------
 # Configuration
 # -----------------------------------------------------------
-SERVER_IP   = "led-matrix.lan"  # ESP32 IP address
+SERVER_IP   = "led-matrix-red.lan"  # ESP32 IP address
 SERVER_PORT = 1234             # Same port as ESP32 code
 LOOP_GIF    = True
 
 # The display dimensions from your ESP32 code (e.g., 128×128)
-WIDTH  = 192
+WIDTH  = 256
 HEIGHT = 32
 
 def main():
