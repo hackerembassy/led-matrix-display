@@ -7,14 +7,14 @@ import numpy as np
 from datetime import datetime
 
 # LED matrix resolution
-WIDTH, HEIGHT = 192, 32
+WIDTH, HEIGHT = 256, 32
 
 SUPER_RES_SCALE = 1
 SUPER_WIDTH = WIDTH * SUPER_RES_SCALE
 SUPER_HEIGHT = HEIGHT * SUPER_RES_SCALE
 
 # TCP server info (LED controller side)
-HOST = "led-matrix.lan"
+HOST = "led-matrix-red.lan"
 PORT = 1234
 
 # Frames per second
